@@ -1,0 +1,196 @@
+/*************************************
+GLOBALS
+*************************************/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body{
+
+	background-color: $white;
+	color: $black;
+	font-family: $bodyfont;
+	font-weight: 300;
+	font-size: 1em;
+
+}
+
+a{
+
+	color: $black;
+	text-decoration: none;
+
+	&:hover{
+		text-decoration: underline;
+	}
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+	font-family: $headingfont;
+}
+
+#wrapper{
+	position: relative;
+}
+
+/*************************************
+HEADER
+*************************************/
+header#main_header{
+
+	padding: 20px;
+
+	#logo{
+
+		display: block;
+		width: 30px;
+		padding: 8px;
+		height: auto;
+		float: left;
+		@include transition(opacity, 0.15s, ease-in-out);
+
+		&:hover{
+			opacity: 0.7;
+		}
+
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+	}
+
+	nav{
+
+		float: right;
+		margin-top: 8px;
+
+		ul{
+
+			margin: 0;
+			padding: 0;
+
+			li{
+
+				list-style-type: none;
+				display: inline-block;
+
+				a{
+
+					display: block;
+					padding: 6px 8px;
+
+				}
+
+			}
+
+			li.current_page a,
+			li a:hover{
+				text-decoration: none;
+				color: $gray;
+			}
+
+		}
+
+	}
+
+}
+
+/*************************************
+HOMEPAGE
+*************************************/
+body.homepage{
+
+	#homepage_background{
+
+		@include absoluteFull(0);
+		position: fixed;
+		background: #ffffff url(../img/background.png) 0 0 repeat scroll;
+		-webkit-background-size: 300px;
+		-moz-background-size: 300px;
+		-o-background-size: 300px;
+		background-size: 300px;
+		z-index: 0;
+		opacity: 0.5;
+
+	}
+
+	header#main_header{
+
+		#logo{
+
+		}
+
+	}
+
+	footer#main_footer{
+
+	}
+
+}
+
+#homepage_content{
+
+	padding: 30px;
+	text-align: center;
+	border-top: solid 1px #efefef;
+	border-bottom: solid 1px #efefef;
+
+	h1{
+		margin: 0 0 0.3em 0;
+	}
+	h2{
+		color: $gray;
+		font-weight: 300;
+		margin: 0;
+	}
+
+}
+
+/*************************************
+CONTENT
+*************************************/
+#content{
+	background: #e2e2e2;
+	min-height: 300px;
+}
+
+/*************************************
+FOOTER
+*************************************/
+footer#main_footer{
+
+	color: $gray;
+	padding: 30px;
+
+	ul{
+
+		margin: 0;
+		padding: 0;
+
+		li{
+
+			list-style-type: none;
+			display: block;
+			padding: 8px;
+
+			a{
+
+				color: $gray;
+				text-decoration: underline;
+
+				&:hover{
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

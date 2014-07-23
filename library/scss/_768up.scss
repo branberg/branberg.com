@@ -1,0 +1,173 @@
+/*************************************
+GLOBALS
+*************************************/
+html, body{
+
+
+
+}
+
+a{
+
+
+
+	&:hover{
+
+	}
+
+}
+
+h1, h2, h3, h4, h5, h6{
+
+}
+
+#wrapper{
+
+}
+
+/*************************************
+HEADER
+*************************************/
+header#main_header{
+
+	padding: 55px;
+
+	#logo{
+
+		width: 45px;
+		padding: 0;
+
+		&:hover{
+
+		}
+
+		img{
+
+		}
+
+	}
+
+	nav{
+
+		font-size: 1.2em;
+		margin-top: 6px;
+
+		ul{
+
+
+
+			li{
+
+				margin-left: 16px;
+
+				a{
+
+
+
+				}
+
+			}
+
+			li.current_page a,
+			li a:hover{
+
+			}
+
+		}
+
+	}
+
+}
+
+/*************************************
+HOMEPAGE
+*************************************/
+body.homepage{
+
+	#homepage_background{
+
+
+
+	}
+
+	header#main_header{
+
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+
+		#logo{
+
+		}
+
+	}
+
+	footer#main_footer{
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+	}
+
+}
+
+#homepage_content{
+
+	border: none;
+	padding: 55px;
+	position: fixed;
+	width: 100%;
+	top: 50%;
+	text-align: center;
+	-webkit-transform: translateY(-60%);
+	-moz-transform: translateY(-60%);
+	-ms-transform: translateY(-60%);
+	-o-transform: translateY(-60%);
+	transform: translateY(-60%);
+
+	h1{
+		font-size: 3em;
+	}
+	h2{
+
+	}
+
+}
+
+/*************************************
+FOOTER
+*************************************/
+footer#main_footer{
+
+	padding: 55px;
+	font-size: 0.85em;
+
+	ul{
+
+
+
+		li{
+
+			display: block;
+			float: left;
+
+			a{
+
+				text-decoration: none;
+
+				&:hover{
+					color: $black;
+				}
+
+			}
+
+		}
+
+		li.right_align{
+			float: right;
+		}
+
+	}
+
+}
