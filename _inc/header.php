@@ -5,6 +5,7 @@
 	<title><?php echo $pageTitle; ?> - Branberg</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="/library/img/favicon.png" />
 
 	<meta name="description" content="A designer and developer doing what we love for people who love what they do."/>
 	<link rel="canonical" href="http://branberg.com/" />
