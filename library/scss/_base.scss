@@ -56,6 +56,10 @@ header#main_header{
 			opacity: 0.7;
 		}
 
+		#branberg_logo{
+			@include branberg-logo( 45px, #000 );
+		}
+
 		img{
 			display: block;
 			width: 100%;
@@ -110,10 +114,7 @@ body.homepage{
 		@include absoluteFull(0);
 		position: fixed;
 		background: #ffffff url(../img/background.png) 0 0 repeat scroll;
-		-webkit-background-size: 300px;
-		-moz-background-size: 300px;
-		-o-background-size: 300px;
-		background-size: 300px;
+		@include background-size( 450px );
 		z-index: 0;
 		opacity: 0.5;
 

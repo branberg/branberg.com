@@ -30,7 +30,7 @@
 	<div id="wrapper">
 
 		<header id="main_header" class="clearfix">
-			<a href="/" id="logo" rel="home"><img src="/library/img/logo.svg" alt="Branberg Logo" /></a>
+			<a href="/" id="logo" rel="home"><div id="branberg_logo"></div></a>
 			<nav id="main_nav">
 				<ul>
 					<li<?php echo( $pageID == 'studio' ? ' class="current_page"' : '' ); ?>><a href="/studio">Studio</a></li>

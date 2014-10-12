@@ -154,6 +154,12 @@ BOX SHADOW
 /*********************
 TRIANGLES
 *********************/
+/*********************
+Background Size
+*********************/
+/*********************
+Branberg Logo
+*********************/
 /*************************************
 GLOBALS
 *************************************/
@@ -199,6 +205,26 @@ header#main_header {
     transition: opacity 0.15s ease-in-out; }
     header#main_header #logo:hover {
       opacity: 0.7; }
+    header#main_header #logo #branberg_logo {
+      display: block;
+      width: 45px;
+      height: 45px;
+      position: relative;
+      overflow: hidden; }
+      header#main_header #logo #branberg_logo:before, header#main_header #logo #branberg_logo:after {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        width: 34.65px;
+        height: 0;
+        border-top: solid 20.7px black;
+        border-bottom: solid 20.7px rgba(255, 255, 255, 0);
+        border-right: solid 10.35px rgba(255, 255, 255, 0); }
+      header#main_header #logo #branberg_logo:before {
+        top: 0; }
+      header#main_header #logo #branberg_logo:after {
+        top: 24.3px; }
     header#main_header #logo img {
       display: block;
       width: 100%;
@@ -231,10 +257,10 @@ body.homepage #homepage_background {
   left: 0;
   position: fixed;
   background: white url(../img/background.png) 0 0 repeat scroll;
-  -webkit-background-size: 300px;
-  -moz-background-size: 300px;
-  -o-background-size: 300px;
-  background-size: 300px;
+  -webkit-background-size: 450px;
+  -moz-background-size: 450px;
+  -o-background-size: 450px;
+  background-size: 450px;
   z-index: 0;
   opacity: 0.5; }
 
