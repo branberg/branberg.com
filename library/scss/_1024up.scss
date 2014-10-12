@@ -11,9 +11,9 @@ a{
 
 
 
-	&:hover{
+  &:hover{
 
-	}
+  }
 
 }
 
@@ -31,49 +31,46 @@ HEADER
 header#main_header{
 
 
-
-	#logo{
-
-
-
-		&:hover{
-
-		}
-
-		img{
-
-		}
-
-	}
-
-	nav{
-
-		font-size: 1.3em;
-
-		ul{
+}
+#logo{
 
 
 
-			li{
+  &:hover{
 
-				margin-left: 30px;
+  }
 
-				a{
+  img{
+
+  }
+
+}
+nav{
+
+  font-size: 1.3em;
+
+  ul{
 
 
 
-				}
+    li{
 
-			}
+      margin-left: 30px;
 
-			li.current_page a,
-			li a:hover{
+      a{
 
-			}
 
-		}
 
-	}
+      }
+
+    }
+
+    li.current_page a,
+    li a:hover{
+
+    }
+
+  }
 
 }
 
@@ -82,23 +79,23 @@ HOMEPAGE
 *************************************/
 body.homepage{
 
-	#homepage_background{
+  #homepage_background{
 
 
 
-	}
+  }
 
-	header#main_header{
+  header#main_header{
 
-		#logo{
+    #logo{
 
-		}
+    }
 
-	}
+  }
 
-	footer#main_footer{
+  footer#main_footer{
 
-	}
+  }
 
 }
 
@@ -106,12 +103,12 @@ body.homepage{
 
 
 
-	h1{
-		font-size: 3.8em;
-	}
-	h2{
-		font-size: 2em;
-	}
+  h1{
+    font-size: 3.8em;
+  }
+  h2{
+    font-size: 2em;
+  }
 
 }
 
@@ -120,32 +117,32 @@ FOOTER
 *************************************/
 footer#main_footer{
 
-	font-size: 1.15em;
+  font-size: 1.15em;
 
-	ul{
-
-
-
-		li{
-
-			margin-right: 30px;
-
-			a{
+  ul{
 
 
 
-				&:hover{
+    li{
 
-				}
+      margin-right: 30px;
 
-			}
+      a{
 
-		}
 
-		li.right_align{
-			margin-right: 0;
-		}
 
-	}
+        &:hover{
+
+        }
+
+      }
+
+    }
+
+    li.right_align{
+      margin-right: 0;
+    }
+
+  }
 
 }
