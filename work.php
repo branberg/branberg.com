@@ -31,13 +31,13 @@
     <div id="work_container">
       <ul class="clearfix">
         <li>
-          <img src="library/img/tmp/01.jpg" alt="" />
+          <img src="library/img/work/mayo01.jpg" alt="" />
         </li>
         <li>
-          <img src="library/img/tmp/02.jpg" alt="" />
+          <img src="library/img/work/mikes01.jpg" alt="" />
         </li>
         <li>
-          <img src="library/img/tmp/03.jpg" alt="" />
+          <img src="library/img/work/cameraslice01.jpg" alt="" />
         </li>
         <li>
           <img src="library/img/tmp/04.jpg" alt="" />

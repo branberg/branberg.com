@@ -210,6 +210,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/img\/tmp\/05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136604,
+		"inputAbbreviatedPath": "\/library\/img\/tmp\/05.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/tmp\/05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/img\/tmp\/06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124821,
+		"inputAbbreviatedPath": "\/library\/img\/tmp\/06.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/tmp\/06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/img\/tmp\/07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131534,
+		"inputAbbreviatedPath": "\/library\/img\/tmp\/07.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/tmp\/07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/img\/tmp\/08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100157,
+		"inputAbbreviatedPath": "\/library\/img\/tmp\/08.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/tmp\/08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/img\/work\/mayo01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459112,
+		"inputAbbreviatedPath": "\/library\/img\/work\/mayo01.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/work\/mayo01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/js\/branberg.js": {
 		"fileType": 64,
 		"ignore": 0,
