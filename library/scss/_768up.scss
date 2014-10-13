@@ -42,6 +42,10 @@ header#main_header{
 
   }
 
+  #branberg_logo{
+    @include branberg-logo( 45px, #000 );
+  }
+
   img{
 
   }
