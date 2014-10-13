@@ -37,16 +37,16 @@
           <img src="library/img/work/mikes01.jpg" alt="" />
         </li>
         <li>
-          <img src="library/img/work/cameraslice01.jpg" alt="" />
-        </li>
-        <li>
           <img src="library/img/work/uofm_hockey.png" alt="" />
         </li>
         <li>
-          <img src="library/img/work/tcf.jpg" alt="" />
+          <img src="library/img/work/cameraslice01.jpg" alt="" />
         </li>
         <li>
           <img src="library/img/work/crew_cuts_vinyl.jpg" alt="" />
+        </li>
+        <li>
+          <img src="library/img/work/tcf.jpg" alt="" />
         </li>
         <li>
           <img src="library/img/work/boombox.jpg" alt="" />
