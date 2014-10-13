@@ -40,7 +40,7 @@
           <img src="library/img/work/cameraslice01.jpg" alt="" />
         </li>
         <li>
-          <img src="library/img/tmp/04.jpg" alt="" />
+          <img src="library/img/work/uofm_hockey.png" alt="" />
         </li>
         <li>
           <img src="library/img/tmp/05.jpg" alt="" />

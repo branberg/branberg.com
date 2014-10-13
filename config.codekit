@@ -254,6 +254,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/img\/work\/cameraslice01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465902,
+		"inputAbbreviatedPath": "\/library\/img\/work\/cameraslice01.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/work\/cameraslice01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/img\/work\/mayo01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -261,6 +272,28 @@
 		"initialSize": 459112,
 		"inputAbbreviatedPath": "\/library\/img\/work\/mayo01.jpg",
 		"outputAbbreviatedPath": "\/library\/img\/work\/mayo01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/img\/work\/mikes01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 873267,
+		"inputAbbreviatedPath": "\/library\/img\/work\/mikes01.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/work\/mikes01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/img\/work\/uofm_hockey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 299725,
+		"inputAbbreviatedPath": "\/library\/img\/work\/uofm_hockey.png",
+		"outputAbbreviatedPath": "\/library\/img\/work\/uofm_hockey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
