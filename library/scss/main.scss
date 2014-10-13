@@ -6,9 +6,12 @@
 //main site styles
 @import '_base.scss';
 
+@media only screen and (min-width: 580px) {
+  @import '580up';
+}
 @media only screen and (min-width: 768px) {
-	@import '_768up';
+	@import '768up';
 }
 @media only screen and (min-width: 1024px) {
-	@import '_1024up';
+	@import '1024up';
 }

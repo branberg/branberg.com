@@ -11,5 +11,7 @@
 
 	</div><!-- end #wrapper -->
 
+	<script type="text/javascript" src="/library/js/branberg.js"></script>
+
 </body>
 </html>

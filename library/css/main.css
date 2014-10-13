@@ -196,9 +196,7 @@ header#main_header {
 
 #logo {
   display: block;
-  width: 30px;
   padding: 8px;
-  height: auto;
   float: left;
   -moz-transition: opacity 0.15s ease-in-out;
   -webkit-transition: opacity 0.15s ease-in-out;
@@ -208,8 +206,8 @@ header#main_header {
     opacity: 0.7; }
   #logo #branberg_logo {
     display: block;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     position: relative;
     overflow: hidden; }
     #logo #branberg_logo:before, #logo #branberg_logo:after {
@@ -217,15 +215,15 @@ header#main_header {
       left: 0;
       content: '';
       display: block;
-      width: 34.65px;
+      width: 23.1px;
       height: 0;
-      border-top: solid 20.7px #000;
-      border-bottom: solid 20.7px rgba(255, 255, 255, 0);
-      border-right: solid 10.35px rgba(255, 255, 255, 0); }
+      border-top: solid 13.8px #000;
+      border-bottom: solid 13.8px rgba(255, 255, 255, 0);
+      border-right: solid 6.9px rgba(255, 255, 255, 0); }
     #logo #branberg_logo:before {
       top: 0; }
     #logo #branberg_logo:after {
-      top: 24.3px; }
+      top: 16.2px; }
   #logo img {
     display: block;
     width: 100%;
@@ -282,7 +280,7 @@ body.homepage #homepage_background {
 CONTENT
 *************************************/
 #content {
-  background: #e2e2e2;
+  background: #ffffff;
   min-height: 300px; }
 
 /*************************************
@@ -291,6 +289,57 @@ STUDIO
 /*************************************
 WORK
 *************************************/
+body.work h1 {
+  font-weight: 300;
+  font-size: 1.5em;
+  padding: 0 10%;
+  text-align: center; }
+
+ul#client_list {
+  margin: 0;
+  padding: 0; }
+  ul#client_list li {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 10%;
+    text-align: center; }
+  ul#client_list a {
+    display: block; }
+  ul#client_list img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; }
+
+#work_container {
+  margin-top: 2em; }
+  #work_container ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  #work_container li {
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative; }
+  #work_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1; }
+
+.overlay {
+  display: none;
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: solid 1px #ffffff;
+  color: #1a1a1a; }
+
 /*************************************
 FOOTER
 *************************************/
@@ -308,6 +357,18 @@ footer#main_footer {
         color: #bebebe;
         text-decoration: underline; }
 
+@media only screen and (min-width: 580px) {
+  /*************************************
+  WORK
+  *************************************/
+  ul#client_list li {
+    width: 33.33%;
+    padding: 8%; }
+
+  #work_container li {
+    display: block;
+    width: 50%;
+    float: left; } }
 @media only screen and (min-width: 768px) {
   /*************************************
   GLOBALS
@@ -363,6 +424,10 @@ footer#main_footer {
   /*************************************
   WORK
   *************************************/
+  ul#client_list li {
+    width: 25%;
+    padding: 6%; }
+
   /*************************************
   FOOTER
   *************************************/
