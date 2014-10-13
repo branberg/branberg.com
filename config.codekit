@@ -166,90 +166,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/img\/tmp\/01.jpg": {
+	"\/library\/img\/work\/boombox.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 205221,
-		"inputAbbreviatedPath": "\/library\/img\/tmp\/01.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/tmp\/01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/img\/tmp\/02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 91008,
-		"inputAbbreviatedPath": "\/library\/img\/tmp\/02.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/tmp\/02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/img\/tmp\/03.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127643,
-		"inputAbbreviatedPath": "\/library\/img\/tmp\/03.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/tmp\/03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/img\/tmp\/04.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 52270,
-		"inputAbbreviatedPath": "\/library\/img\/tmp\/04.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/tmp\/04.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/img\/tmp\/05.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 136604,
-		"inputAbbreviatedPath": "\/library\/img\/tmp\/05.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/tmp\/05.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/img\/tmp\/06.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 124821,
-		"inputAbbreviatedPath": "\/library\/img\/tmp\/06.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/tmp\/06.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/img\/tmp\/07.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 131534,
-		"inputAbbreviatedPath": "\/library\/img\/tmp\/07.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/tmp\/07.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/img\/tmp\/08.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 100157,
-		"inputAbbreviatedPath": "\/library\/img\/tmp\/08.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/tmp\/08.jpg",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/library\/img\/work\/boombox.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/work\/boombox.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -265,6 +188,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/img\/work\/crew_cuts_vinyl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/library\/img\/work\/crew_cuts_vinyl.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/work\/crew_cuts_vinyl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/img\/work\/hoodieallen01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -272,6 +206,17 @@
 		"initialSize": 164526,
 		"inputAbbreviatedPath": "\/library\/img\/work\/hoodieallen01.jpg",
 		"outputAbbreviatedPath": "\/library\/img\/work\/hoodieallen01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/img\/work\/hoodievynil.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115770,
+		"inputAbbreviatedPath": "\/library\/img\/work\/hoodievynil.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/work\/hoodievynil.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

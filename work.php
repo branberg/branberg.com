@@ -43,13 +43,13 @@
           <img src="library/img/work/uofm_hockey.png" alt="" />
         </li>
         <li>
-          <img src="library/img/work/hoodieallen01.jpg" alt="" />
+          <img src="library/img/work/tcf.jpg" alt="" />
         </li>
         <li>
-          <img src="library/img/tmp/06.jpg" alt="" />
+          <img src="library/img/work/crew_cuts_vinyl.jpg" alt="" />
         </li>
         <li>
-          <img src="library/img/tmp/07.jpg" alt="" />
+          <img src="library/img/work/boombox.jpg" alt="" />
         </li>
         <li>
           <img src="library/img/tmp/08.jpg" alt="" />
