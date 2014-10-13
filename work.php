@@ -43,7 +43,7 @@
           <img src="library/img/work/uofm_hockey.png" alt="" />
         </li>
         <li>
-          <img src="library/img/tmp/05.jpg" alt="" />
+          <img src="library/img/work/hoodieallen01.jpg" alt="" />
         </li>
         <li>
           <img src="library/img/tmp/06.jpg" alt="" />

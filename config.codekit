@@ -265,6 +265,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/img\/work\/hoodieallen01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164526,
+		"inputAbbreviatedPath": "\/library\/img\/work\/hoodieallen01.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/work\/hoodieallen01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/img\/work\/mayo01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
