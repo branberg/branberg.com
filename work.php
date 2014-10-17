@@ -43,7 +43,7 @@
           <div class="work_label" style="background-color:#bb224a;color:#ffffff;"><div class="label"><span>Mike's Hard Lemonade</span> Graphics</div></div>
         </li>
         <li>
-          <img src="library/img/work/uofm_hockey.png" alt="University of Minnesota hockey logo" />
+          <img src="library/img/work/uofm_hockey.jpg" alt="University of Minnesota hockey logo" />
           <div class="work_label" style="background-color:#3f0f17;color:#ffffff;"><div class="label"><span>University of Minnesota</span> Graphics</div></div>
         </li>
         <li>
