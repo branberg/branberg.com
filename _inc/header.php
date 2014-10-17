@@ -20,6 +20,7 @@
 	<?php if( $headExtras ){ echo $headExtras; } ?>
 
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="library/css/main.css">
 
 	<?php /*<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>*/ ?>
@@ -37,7 +38,6 @@
 			<a href="/" id="logo" rel="home"><div id="branberg_logo"></div></a>
 			<nav id="main_nav">
 				<ul>
-					<li<?php echo( $pageID == 'studio' ? ' class="current_page"' : '' ); ?>><a href="/studio">Studio</a></li>
 					<li<?php echo( $pageID == 'work' ? ' class="current_page"' : '' ); ?>><a href="/work">Work</a></li>
 					<li<?php echo( $pageID == 'contact' ? ' class="current_page"' : '' ); ?>><a href="#" class="md-trigger" data-modal="modal-1">Contact</a></li>
 				</ul>
