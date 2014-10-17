@@ -10,7 +10,7 @@ html, body{
 
   background-color: $white;
   color: $black;
-  font-family: $bodyfont;
+  font-family: $secondaryFont;
   font-weight: 300;
   font-size: 1em;
 
@@ -29,11 +29,28 @@ a{
 
 h1, h2, h3, h4, h5, h6{
   font-weight: 700;
-  font-family: $headingfont;
+  font-family: $primaryFont;
 }
 
 #wrapper{
   position: relative;
+}
+
+.button{
+
+  display: inline-block;
+  position: relative;
+  border: solid 1px #000;
+  padding: 6px 10px;
+  text-align: center;
+  @include rounded(4px);
+  @include transition(opacity, 0.15s, ease-in-out);
+
+  &:hover{
+    text-decoration: none;
+    opacity: 0.85;
+  }
+
 }
 
 /*************************************
@@ -42,6 +59,7 @@ HEADER
 header#main_header{
 
   padding: 20px;
+  font-family: $primaryFont;
 
 }
 #logo{
@@ -157,6 +175,14 @@ CONTENT
   background: $white;
   min-height: 300px;
 
+  h1{
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+  }
+
 }
 
 /*************************************
@@ -166,22 +192,10 @@ STUDIO
 /*************************************
 WORK
 *************************************/
-body.work h1{
-
-  &:first-child{
-    //margin-top: 0;
-  }
-
-  font-weight: 300;
-  font-size: 1.5em;
-  padding: 0 10%;
-  text-align: center;
-
-}
 ul#client_list{
 
   margin: 0;
-  padding: 0;
+  padding: 20px 0;
 
   li{
     display: block;
@@ -231,6 +245,51 @@ ul#client_list{
   }
 
 }
+.work_label{
+
+  font-weight: 300;
+  display: block;
+  font-size: 0.85em;
+  background: #1a1a1a;
+  color: $white;
+  position: relative;
+
+  &:after{
+    display: table;
+    content: '';
+    clear: both;
+  }
+
+  .label{
+
+    padding: 20px 96px 20px 20px;
+    float: left;
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    span{
+      font-weight: 700;
+      margin-right: 6px;
+    }
+
+  }
+  a.button{
+
+    color: $white;
+    float: right;
+    border-color: #ffffff;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+
+    &:hover{
+
+    }
+  }
+
+}
 .overlay{
   display: none;
   z-index: 3;
@@ -250,6 +309,7 @@ footer#main_footer{
 
   color: $gray;
   padding: 30px;
+  font-family: $primaryFont;
 
   ul{
 
@@ -277,4 +337,82 @@ footer#main_footer{
 
   }
 
+}
+
+/*************************************
+Contact Modal
+*************************************/
+.modal_overlay{
+  background: rgba(0,0,0,0.85);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+.modal{
+  display: none;
+  position: fixed;
+  background: $white;
+  color: $black;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  max-width: 630px;
+  min-width: 320px;
+  height: auto;
+  z-index: 2000;
+  visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  @include transform( translateX(-50%) translateY(-50%) );
+}
+.modal_content{
+
+  h3{
+    margin: 0;
+    background: #f8f8f8;
+    padding: 20px;
+  }
+
+  > div{ padding: 20px; }
+
+  p{
+    margin-top: 0;
+  }
+
+}
+button.close_modal{
+
+}
+
+.modal-show {
+  visibility: visible;
+}
+.modal-show ~ .modal_overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+//fade effect
+.modal_content {
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-show  .modal_content {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
 }

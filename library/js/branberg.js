@@ -32,6 +32,12 @@ var currentTallest = 0,
  });
 }
 
+$(document).ready(function(){
+
+
+
+});
+
 $(window).load(function() {
   equalheight('#client_list li');
 });

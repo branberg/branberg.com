@@ -160,6 +160,9 @@ Background Size
 /*********************
 Branberg Logo
 *********************/
+/*********************
+Transform
+*********************/
 /*************************************
 GLOBALS
 *************************************/
@@ -171,7 +174,7 @@ GLOBALS
 html, body {
   background-color: #ffffff;
   color: #1a1a1a;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 300;
   font-size: 1em; }
 
@@ -188,11 +191,30 @@ h1, h2, h3, h4, h5, h6 {
 #wrapper {
   position: relative; }
 
+.button {
+  display: inline-block;
+  position: relative;
+  border: solid 1px #000;
+  padding: 6px 10px;
+  text-align: center;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-transition: opacity 0.15s ease-in-out;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  -o-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out; }
+  .button:hover {
+    text-decoration: none;
+    opacity: 0.85; }
+
 /*************************************
 HEADER
 *************************************/
 header#main_header {
-  padding: 20px; }
+  padding: 20px;
+  font-family: "Montserrat", sans-serif; }
 
 #logo {
   display: block;
@@ -282,6 +304,12 @@ CONTENT
 #content {
   background: #ffffff;
   min-height: 300px; }
+  #content h1 {
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    margin: 0; }
 
 /*************************************
 STUDIO
@@ -289,15 +317,9 @@ STUDIO
 /*************************************
 WORK
 *************************************/
-body.work h1 {
-  font-weight: 300;
-  font-size: 1.5em;
-  padding: 0 10%;
-  text-align: center; }
-
 ul#client_list {
   margin: 0;
-  padding: 0; }
+  padding: 20px 0; }
   ul#client_list li {
     display: block;
     float: left;
@@ -329,6 +351,35 @@ ul#client_list {
     position: relative;
     z-index: 1; }
 
+.work_label {
+  font-weight: 300;
+  display: block;
+  font-size: 0.85em;
+  background: #1a1a1a;
+  color: #ffffff;
+  position: relative; }
+  .work_label:after {
+    display: table;
+    content: '';
+    clear: both; }
+  .work_label .label {
+    padding: 20px 96px 20px 20px;
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    .work_label .label span {
+      font-weight: 700;
+      margin-right: 6px; }
+  .work_label a.button {
+    color: #ffffff;
+    float: right;
+    border-color: #ffffff;
+    position: absolute;
+    top: 12px;
+    right: 12px; }
+
 .overlay {
   display: none;
   z-index: 3;
@@ -345,7 +396,8 @@ FOOTER
 *************************************/
 footer#main_footer {
   color: #bebebe;
-  padding: 30px; }
+  padding: 30px;
+  font-family: "Montserrat", sans-serif; }
   footer#main_footer ul {
     margin: 0;
     padding: 0; }
@@ -356,6 +408,73 @@ footer#main_footer {
       footer#main_footer ul li a {
         color: #bebebe;
         text-decoration: underline; }
+
+/*************************************
+Contact Modal
+*************************************/
+.modal_overlay {
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: none; }
+
+.modal {
+  display: none;
+  position: fixed;
+  background: #ffffff;
+  color: #1a1a1a;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  max-width: 630px;
+  min-width: 320px;
+  height: auto;
+  z-index: 2000;
+  visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.modal_content h3 {
+  margin: 0;
+  background: #f8f8f8;
+  padding: 20px; }
+.modal_content > div {
+  padding: 20px; }
+.modal_content p {
+  margin-top: 0; }
+
+.modal-show {
+  visibility: visible; }
+
+.modal-show ~ .modal_overlay {
+  opacity: 1;
+  visibility: visible; }
+
+.modal_content {
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.modal-show .modal_content {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1; }
 
 @media only screen and (min-width: 580px) {
   /*************************************

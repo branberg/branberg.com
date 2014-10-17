@@ -133,3 +133,13 @@ Branberg Logo
     &:after{ top: $height*0.54; }
 
 }
+
+/*********************
+Transform
+*********************/
+@mixin transform( $transform: '' ){
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  transform: $transform;
+}
