@@ -11,22 +11,24 @@
 
   </div><!-- end #wrapper -->
 
-  <div id="contact_modal_overlay" class="modal_overlay"></div>
-  <div id="contact_modal" class="modal">
-    <div class="modal_content">
+  <div class="md-modal md-effect-1" id="modal-1">
+    <div class="md-content">
       <h3>Contact Us</h3>
       <div>
-        <p>We're a pretty easy bunch to get a hold of. You can...</p>
+        <p>This is a modal window. You can do the following things with it:</p>
         <ul>
-          <li>Call us: 612.524.5562</li>
-          <li>Email us: hello@branberg.com</li>
-          <li>Write us: 308 E Prince St, Saint Paul MN, 55101</li>
+          <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+          <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+          <li><strong>Close:</strong> click on the button below to close the modal.</li>
         </ul>
-        <button class="close_modal">Close</button>
+        <button class="md-close">close me</button>
       </div>
     </div>
   </div>
+  <div class="md-overlay"></div><!-- the overlay element -->
 
+  <script type="text/javascript" src="/library/js/modal/classie.js"></script>
+  <script type="text/javascript" src="/library/js/modal/modalEffects.js"></script>
   <script type="text/javascript" src="/library/js/branberg.js"></script>
 
 </body>

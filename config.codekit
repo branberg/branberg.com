@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17945",
+"creatorBuild": "18027",
 "files": {
 	"\/_inc\/footer.php": {
 		"fileType": 8192,
@@ -155,6 +155,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/img\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3127,
+		"inputAbbreviatedPath": "\/library\/img\/facebook.png",
+		"outputAbbreviatedPath": "\/library\/img\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -210,17 +221,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/img\/work\/hoodievynil.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 115770,
-		"inputAbbreviatedPath": "\/library\/img\/work\/hoodievynil.jpg",
-		"outputAbbreviatedPath": "\/library\/img\/work\/hoodievynil.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/library\/img\/work\/mayo01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -239,6 +239,17 @@
 		"initialSize": 873267,
 		"inputAbbreviatedPath": "\/library\/img\/work\/mikes01.jpg",
 		"outputAbbreviatedPath": "\/library\/img\/work\/mikes01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/img\/work\/tcf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 559998,
+		"inputAbbreviatedPath": "\/library\/img\/work\/tcf.jpg",
+		"outputAbbreviatedPath": "\/library\/img\/work\/tcf.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -365,6 +376,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/scss\/_mixins.scss",
 		"outputAbbreviatedPath": "\/library\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/library\/scss\/_modal.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/scss\/_modal.scss",
+		"outputAbbreviatedPath": "\/library\/css\/_modal.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

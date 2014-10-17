@@ -22,7 +22,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="library/css/main.css">
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<?php /*<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>*/ ?>
 
 </head>
 <body class="<?php echo $pageID; ?>">
@@ -39,7 +39,7 @@
 				<ul>
 					<li<?php echo( $pageID == 'studio' ? ' class="current_page"' : '' ); ?>><a href="/studio">Studio</a></li>
 					<li<?php echo( $pageID == 'work' ? ' class="current_page"' : '' ); ?>><a href="/work">Work</a></li>
-					<li<?php echo( $pageID == 'contact' ? ' class="current_page"' : '' ); ?>><a href="#" class="modal-trigger">Contact</a></li>
+					<li<?php echo( $pageID == 'contact' ? ' class="current_page"' : '' ); ?>><a href="#" class="md-trigger" data-modal="modal-1">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
