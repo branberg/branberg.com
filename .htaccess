@@ -12,3 +12,4 @@ Redirect 301 /themes/ http://branberg.com/work
 Redirect 301 /about/ http://branberg.com
 Redirect 301 /services/ http://branberg.com/work
 Redirect 301 /contact/ http://branberg.com
+Redirect 301 /work/ http://branberg.com/work
