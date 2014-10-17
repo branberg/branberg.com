@@ -6,3 +6,9 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 #redirect index.php back to root
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php
 RewriteRule ^index\.php$ / [L,R=301]
+
+#set up 301 redirects
+Redirect 301 /themes/ http://branberg.com/work
+Redirect 301 /about/ http://branberg.com
+Redirect 301 /services/ http://branberg.com/work
+Redirect 301 /contact/ http://branberg.com
