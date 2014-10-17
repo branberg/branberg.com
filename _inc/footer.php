@@ -30,7 +30,6 @@
 
   <script type="text/javascript" src="/library/js/modal/classie.js"></script>
   <script type="text/javascript" src="/library/js/modal/modalEffects.js"></script>
-  <script type="text/javascript" src="/library/js/branberg.js"></script>
 
 </body>
 </html>

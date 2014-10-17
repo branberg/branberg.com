@@ -100,7 +100,12 @@ nav#main_nav{
       list-style-type: none;
       display: inline-block;
 
-      a{
+      button{
+        border: none;
+        background: none;
+        outline: none;
+      }
+      a, button{
 
         display: block;
         padding: 6px 8px;
@@ -110,7 +115,9 @@ nav#main_nav{
     }
 
     li.current_page a,
-    li a:hover{
+    li.current_page button,
+    li a:hover,
+    li button:hover{
       text-decoration: none;
       color: $gray;
     }

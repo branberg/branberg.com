@@ -39,7 +39,7 @@
 			<nav id="main_nav">
 				<ul>
 					<li<?php echo( $pageID == 'work' ? ' class="current_page"' : '' ); ?>><a href="/work">Work</a></li>
-					<li<?php echo( $pageID == 'contact' ? ' class="current_page"' : '' ); ?>><a href="#" class="md-trigger" data-modal="modal-1">Contact</a></li>
+					<li<?php echo( $pageID == 'contact' ? ' class="current_page"' : '' ); ?>><button href="#" class="md-trigger" data-modal="modal-1">Contact</button></li>
 				</ul>
 			</nav>
 		</header>
