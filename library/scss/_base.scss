@@ -426,3 +426,11 @@ button.close_modal{
   transform: scale(1);
   opacity: 1;
 }
+
+.unavailable{
+  border: solid 1px #cc3641;
+  color: #cc3641;
+  display: block;
+  padding: 10px 13px;
+  @include rounded(4px);
+}
