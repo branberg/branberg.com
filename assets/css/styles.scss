@@ -1,4 +1,8 @@
-@import "normalize.css";
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "../vendor/normalize.css";
 @import "grid";
 @import "variables";
 @import "mixins";
@@ -11,8 +15,8 @@
   @import '580up';
 }
 @media only screen and (min-width: 768px) {
-	@import '768up';
+  @import '768up';
 }
 @media only screen and (min-width: 1024px) {
-	@import '1024up';
+  @import '1024up';
 }
