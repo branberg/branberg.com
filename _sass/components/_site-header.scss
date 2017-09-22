@@ -1,0 +1,50 @@
+.site-header {
+  @include clearfix;
+  padding: 20px;
+  font-family: $primaryFont;
+
+  @media screen and (min-width: 768px) {
+    padding: 55px;
+  }
+
+  body.home & {
+    @media screen and (min-width: 768px) {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+.site-header__logo {
+  display: block;
+  padding: 8px;
+  float: left;
+  @include transition(opacity, 0.15s, ease-in-out);
+
+  @media screen and (min-width: 768px) {
+    width: 45px;
+    padding: 0;
+  }
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+.site-header__branberg-icon {
+  @include branberg-logo( 30px, #000 );
+
+  @media screen and (min-width: 768px) {
+    @include branberg-logo( 45px, #000 );
+  }
+}
+
+.site-header__nav {
+
+  ul {}
+  li {}
+  a {}
+  button {}
+}

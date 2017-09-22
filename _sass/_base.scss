@@ -56,47 +56,7 @@ h1, h2, h3, h4, h5, h6{
 /*************************************
 HEADER
 *************************************/
-header#main_header{
 
-  padding: 20px;
-  font-family: $primaryFont;
-
-  @media screen and (min-width: 768px) {
-    padding: 55px;
-  }
-
-}
-#logo{
-
-  display: block;
-  padding: 8px;
-  float: left;
-  @include transition(opacity, 0.15s, ease-in-out);
-
-  &:hover{
-    opacity: 0.7;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 45px;
-    padding: 0;
-  }
-
-  #branberg_logo{
-    @include branberg-logo( 30px, #000 );
-
-    @media screen and (min-width: 768px) {
-      @include branberg-logo( 45px, #000 );
-    }
-  }
-
-  img{
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-}
 
 nav#main_nav{
 
@@ -169,21 +129,6 @@ body.home{
     @include background-size( 450px );
     z-index: 0;
     opacity: 0.5;
-
-  }
-
-  header#main_header{
-
-    @media screen and (min-width: 768px) {
-      position: fixed;
-      width: 100%;
-      top: 0;
-      left: 0;
-    }
-
-    #logo{
-
-    }
 
   }
 

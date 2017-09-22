@@ -9,4 +9,7 @@
 @import "modal";
 
 //main site styles
-@import '_base.scss';
+@import 'base';
+
+// components
+@import 'components/site-header';
