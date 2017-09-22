@@ -61,6 +61,10 @@ header#main_header{
   padding: 20px;
   font-family: $primaryFont;
 
+  @media screen and (min-width: 768px) {
+    padding: 55px;
+  }
+
 }
 #logo{
 
@@ -73,8 +77,17 @@ header#main_header{
     opacity: 0.7;
   }
 
+  @media screen and (min-width: 768px) {
+    width: 45px;
+    padding: 0;
+  }
+
   #branberg_logo{
     @include branberg-logo( 30px, #000 );
+
+    @media screen and (min-width: 768px) {
+      @include branberg-logo( 45px, #000 );
+    }
   }
 
   img{
@@ -90,6 +103,11 @@ nav#main_nav{
   float: right;
   margin-top: 8px;
 
+  @media screen and (min-width: 768px) {
+    font-size: 1.2em;
+    margin-top: 6px;
+  }
+
   ul{
 
     margin: 0;
@@ -99,6 +117,10 @@ nav#main_nav{
 
       list-style-type: none;
       display: inline-block;
+
+      @media screen and (min-width: 768px) {
+        margin-left: 16px;
+      }
 
       button{
         border: none;
@@ -144,6 +166,13 @@ body.home{
 
   header#main_header{
 
+    @media screen and (min-width: 768px) {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+
     #logo{
 
     }
@@ -152,6 +181,12 @@ body.home{
 
   footer#main_footer{
 
+    @media screen and (min-width: 768px) {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
   }
 
 }
@@ -163,8 +198,26 @@ body.home{
   border-top: solid 1px #efefef;
   border-bottom: solid 1px #efefef;
 
+  @media screen and (min-width: 768px) {
+    border: none;
+    padding: 55px;
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-60%);
+    -moz-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    -o-transform: translateY(-60%);
+    transform: translateY(-60%);
+  }
+
   h1{
     margin: 0 0 0.3em 0;
+
+    @media screen and (min-width: 768px) {
+      font-size: 3em;
+    }
   }
   h2{
     color: $gray;
@@ -213,6 +266,11 @@ ul#client_list{
     width: 50%;
     padding: 10%;
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+      width: 25%;
+      padding: 6%;
+    }
   }
   a{
     display: block;
@@ -321,6 +379,11 @@ footer#main_footer{
   padding: 30px;
   font-family: $primaryFont;
 
+  @media screen and (min-width: 768px) {
+    padding: 55px;
+    font-size: 0.85em;
+  }
+
   ul{
 
     margin: 0;
@@ -332,17 +395,34 @@ footer#main_footer{
       display: block;
       padding: 8px;
 
+      @media screen and (min-width: 768px) {
+        display: block;
+        float: left;
+      }
+
       a{
 
         color: $gray;
         text-decoration: underline;
 
-        &:hover{
+        @media screen and (min-width: 768px) {
+          text-decoration: none;
+        }
 
+        &:hover{
+          @media screen and (min-width: 768px) {
+            color: $black;
+          }
         }
 
       }
 
+    }
+
+    li.right_align {
+      @media screen and (min-width: 768px) {
+        float: right;
+      }
     }
 
   }
