@@ -12,7 +12,7 @@ id          : "work"
     <div class="client-list">
       {% for client in site.data.client-list %}
         <div class="client-list__logo">
-          <img class="client-list__logo-image" src="{{ site.url }}/assets/img/clients/{{ client.src }}" alt="{{ client.alt }}" />
+          <img class="client-list__logo-image" src="./assets/img/clients/{{ client.src }}" alt="{{ client.alt }}" />
         </div>
       {% endfor %}
     </div>
@@ -22,7 +22,7 @@ id          : "work"
   <div class="work-items">
     {% for item in site.data.work-items %}
       <div class="work-item">
-        <img class="work-item__image" src="{{ site.url }}/assets/img/work/{{ item.image }}" alt="{{ item.alt }}" />
+        <img class="work-item__image" src="./assets/img/work/{{ item.image }}" alt="{{ item.alt }}" />
         <div class="work-item__titleblock" style="background-color:{{ item.background }};">
           <div class="work-item__info">
             <h3 class="work-item__client">{{ item.client }}</h3>
