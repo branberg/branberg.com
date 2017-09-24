@@ -7,7 +7,7 @@
     padding: 55px;
   }
 
-  body.home & {
+  .body--home & {
     @media screen and (min-width: 768px) {
       position: fixed;
       width: 100%;
@@ -21,7 +21,7 @@
   display: block;
   padding: 8px;
   float: left;
-  @include transition(opacity, 0.15s, ease-in-out);
+  transition: opacity 0.15s ease-in-out;
 
   @media screen and (min-width: 768px) {
     width: 45px;
@@ -43,8 +43,48 @@
 
 .site-header__nav {
 
-  ul {}
-  li {}
-  a {}
-  button {}
+  float: right;
+  margin-top: 8px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.2em;
+    margin-top: 6px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 1.3em;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 16px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      margin-left: 30px;
+    }
+  }
+  a,
+  button {
+    border: none;
+    background: none;
+    outline: none;
+    display: block;
+    padding: 6px 8px;
+  }
+
+  li.current_page a,
+  li.current_page button,
+  a:hover,
+  button:hover{
+    text-decoration: none;
+    color: $gray;
+  }
 }

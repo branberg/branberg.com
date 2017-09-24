@@ -1,0 +1,27 @@
+.client-list {
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.client-list__logo {
+  flex: 0 0 50%;
+  padding: 10%;
+
+  @media screen and (min-width: 580px) {
+    flex-basis: 33.33%;
+    padding: 8%;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-basis: 25%;
+    padding: 6%;
+  }
+}
+
+.client-list__logo-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
