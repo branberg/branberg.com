@@ -1,0 +1,32 @@
+---
+layout      : default
+title       : "Work"
+id          : "work"
+---
+
+.content-wrapper
+  .wrap
+
+    %h1.page-title
+      {{ site.work_title }}
+
+    .client-list
+      {% for client in site.data.client-list %}
+      .client-list__logo
+        %img.client-list__logo-image{alt: "{{ client.alt }}", src: "{{ site.asset_path }}/img/clients/{{ client.src }}"}/
+      {% endfor %}
+
+  .work-items
+    {% for item in site.data.work-items %}
+    .work-item
+      %img.work-item__image{alt: "{{ item.alt }}", src: "{{ site.asset_path }}/img/work/{{ item.image }}"}/
+      .work-item__titleblock{style: "background-color:{{ item.background }};"}
+        .work-item__info
+          %h3.work-item__client {{ item.client }}
+          %span.work-item__category {{ item.category }}
+        {% if item.link != nil %}
+        %a.work-item__link{href: "{{ item.link }}"}
+          {{ site.work_site_link }}
+        {% endif %}
+    {% endfor %}
+
