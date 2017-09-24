@@ -5,6 +5,7 @@
 @import "../vendor/normalize.css";
 @import "grid";
 @import "variables";
+@import "modal";
 
 // mixins
 @import 'mixins/absolute-full';
@@ -12,11 +13,8 @@
 @import 'mixins/branberg-logo';
 @import 'mixins/clearfix';
 
-
-@import "modal";
-
 //main site styles
-@import 'base';
+@import 'global';
 
 // components
 @import 'components/button';
