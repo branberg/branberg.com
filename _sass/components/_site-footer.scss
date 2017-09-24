@@ -1,0 +1,56 @@
+.site-footer {
+  color: $gray;
+  padding: 30px;
+  font-family: $primaryFont;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (min-width: 768px) {
+    padding: 55px;
+    font-size: 0.85em;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 1.15em;
+  }
+
+  .body--home & {
+    @media screen and (min-width: 768px) {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+}
+
+.site-footer__links {}
+
+.site-footer__link,
+.site-footer__text {
+  display: inline-block;
+  margin: 0;
+  padding: 8px;
+  color: $gray;
+}
+
+.site-footer__link {
+  text-decoration: underline;
+
+  @media screen and (min-width: 768px) {
+    text-decoration: none;
+  }
+
+  &:hover{
+    @media screen and (min-width: 768px) {
+      color: $black;
+    }
+  }
+}
+
+.site-footer__info {
+  text-align: right;
+}
+
+.site-footer__text {}

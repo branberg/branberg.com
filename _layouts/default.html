@@ -3,9 +3,14 @@
 
   {% include head.html %}
 
-  <body class="{{ page.id }}">
+  <body class="body body--{{ page.id }}">
+
+    {% include header.html %}
 
     {{ content }}
+
+    {% include footer.html %}
+    {% include contact_modal.html %}
 
     <script type="text/javascript" src="./assets/js/modal/classie.js"></script>
     <script type="text/javascript" src="./assets/js/modal/modalEffects.js"></script>

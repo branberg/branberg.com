@@ -5,8 +5,24 @@
 @import "../vendor/normalize.css";
 @import "grid";
 @import "variables";
-@import "mixins";
 @import "modal";
 
+// mixins
+@import 'mixins/absolute-full';
+@import 'mixins/button';
+@import 'mixins/branberg-logo';
+@import 'mixins/clearfix';
+
 //main site styles
-@import '_base.scss';
+@import 'global';
+
+// components
+@import 'components/button';
+@import 'components/client-list';
+@import 'components/content-wrapper';
+@import 'components/homepage-background';
+@import 'components/modal';
+@import 'components/site-footer';
+@import 'components/site-header';
+@import 'components/typography';
+@import 'components/work-item';
