@@ -1,0 +1,29 @@
+%head
+  %meta{charset: "UTF-8"}
+  %title {% if page.title %}{{ page.title }}{% endif %} | {{ site.title }}
+  %meta{content: "width=device-width, initial-scale=1", name: "viewport"}
+  %link{href: "{{ site.asset_path }}/img/favicon.png", rel: "icon", type: "image/png"}
+  %meta{content: "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}", name: "description"}
+  %link{href: "{{ site.url }}", rel: "canonical"}
+  %meta{content: "en_US", property: "og:locale"}
+  %meta{content: "website", property: "og:type"}
+  %meta{content: "{{ site.title }}", property: "og:site_name"}
+  %meta{content: "{% if page.title %}{{ page.title }}{% endif %} | {{ site.title }}", property: "og:title"}
+  %meta{content: "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}", property: "og:description"}
+  %meta{content: "{{ site.url }}", property: "og:url"}
+  %meta{content: "{{ site.url }}assets/img/facebook.png", property: "og:image"}
+  %meta{content: "https://www.facebook.com/branbergstudios", property: "article:publisher"}
+  %link{href: "//fonts.googleapis.com/css?family=Montserrat:400,700", rel: "stylesheet", type: "text/css"}
+  %link{href: "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel: "stylesheet"}
+  %link{href: "{{ site.asset_path }}/css/styles.css", rel: "stylesheet", type: "text/css"}
+
+  :javascript
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19739952-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();

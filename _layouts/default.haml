@@ -1,0 +1,19 @@
+!!!
+%html
+
+  {% haml head.haml %}
+
+  %body.body{class: "body--{{ page.id }}"}
+
+    {% haml header.haml %}
+
+    {{ content }}
+
+    {% haml footer.haml %}
+    {% haml contact_modal.haml %}
+
+    %script{type: "text/javascript", src: "{{ site.asset_path }}/js/modal/classie.js"}
+    %script{type: "text/javascript", src: "{{ site.asset_path }}/js/modal/modalEffects.js"}
+
+  </body>
+</html>
