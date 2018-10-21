@@ -38,7 +38,7 @@ const Work = () => (
     <div className="work-items">
 
       <WorkItem
-        imgSrc="static/images/work/mayo01.jpg"
+        imgSrc="/static/images/work/mayo01.jpg"
         imgAlt="Mayo Clinic iOS App"
         title="Mayo Clinic"
         category="Patient App"
@@ -46,7 +46,7 @@ const Work = () => (
       />
 
       <WorkItem
-        imgSrc="static/images/work/mikes01.jpg"
+        imgSrc="/static/images/work/mikes01.jpg"
         imgAlt="Mike's Hard Lemonade Graphics"
         title="Mike's Hard Lemonade"
         category="Graphics"
@@ -54,7 +54,7 @@ const Work = () => (
       />
 
       <WorkItem
-        imgSrc="static/images/work/uofm_hockey.jpg"
+        imgSrc="/static/images/work/uofm_hockey.jpg"
         imgAlt="University of Minnesota hockey logo"
         title="University of Minnesota"
         category="Graphics"
@@ -62,7 +62,7 @@ const Work = () => (
       />
 
       <WorkItem
-        imgSrc="static/images/work/conte-01.jpg"
+        imgSrc="/static/images/work/conte-01.jpg"
         imgAlt="Jack Conte tour poster"
         title="Jack Conte"
         category="Tour Poster"
@@ -70,7 +70,7 @@ const Work = () => (
       />
 
       <WorkItem
-        imgSrc="static/images/work/boombox.jpg"
+        imgSrc="/static/images/work/boombox.jpg"
         imgAlt="Boombox Wordpress Theme"
         title="Boombox"
         category="Wordpress Theme"
@@ -79,7 +79,7 @@ const Work = () => (
       />
 
       <WorkItem
-        imgSrc="static/images/work/cameraslice01.jpg"
+        imgSrc="/static/images/work/cameraslice01.jpg"
         imgAlt="Camera Slice Web App"
         title="Camera Slice Web App"
         category="Web App"
