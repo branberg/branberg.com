@@ -5,11 +5,11 @@ The website for Branberg
 ## Running Locally
 
 ```bash
-$ bundle install
-$ bundle exec jekyll serve
+$ npm instlal
+$ npm run dev
 ```
 
-That will spin up the local dev server on [http://localhost:4000](localhost:4000)
+That will spin up the local dev server on [http://localhost:3000](localhost:3000)
 
 ## Building
 
@@ -18,5 +18,5 @@ This site is hosted by [Netlify](https://netlify.com) and automatically builds a
 To build locally:
 
 ```bash
-$ bundle exec jekyll build
+$ npm run export
 ```

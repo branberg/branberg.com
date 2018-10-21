@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Nav = () => (
+const Nav = (props) => (
   <header className="site-header">
     <Link href="/">
       <a className="site-header__logo" rel="home">
@@ -15,7 +15,13 @@ const Nav = () => (
           </Link>
         </li>
         <li>
-          <button className="md-trigger" data-modal="modal-1">Contact</button>
+          <button
+            className="md-trigger"
+            data-modal="modal-1"
+            onClick={props.onModalButtonClick}
+          >
+            Contact
+          </button>
         </li>
       </ul>
     </nav>
