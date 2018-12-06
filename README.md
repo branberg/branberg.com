@@ -5,7 +5,7 @@ The website for Branberg
 ## Running Locally
 
 ```bash
-$ npm instlal
+$ npm install
 $ npm run dev
 ```
 
