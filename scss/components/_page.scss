@@ -3,8 +3,9 @@
   background-color: $white;
   color: $black;
   font-size: 1.8rem;
+  min-height: 100vh;
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 60rem) {
     border-width: 2rem;
   }
 
