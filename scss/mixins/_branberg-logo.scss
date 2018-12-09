@@ -1,5 +1,4 @@
 @mixin branberg-logo( $height: '100px', $color: '#000' ) {
-
   display: block;
   width: $height;
   height: $height;
@@ -26,5 +25,4 @@
   &::after {
     top: $height * 0.54;
   }
-
 }
