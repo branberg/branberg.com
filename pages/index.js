@@ -2,15 +2,12 @@ import Page from '../components/Page';
 
 const Home = () => (
   <Page
-    className="body--home"
     pageTitle="Home | Branberg"
+    isHomePage
   >
-    <h1 className="page-title">
-      We craft digital experiences.
+    <h1 className="page-title page-title--home">
+      A studio that's making an app.
     </h1>
-    <h2 className="page-subtitle">
-      A studio committed to great ideas.
-    </h2>
   </Page>
 );
 
