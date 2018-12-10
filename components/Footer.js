@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import classNames from 'classnames';
 
 const Footer = (props) => (
@@ -8,7 +9,9 @@ const Footer = (props) => (
         &#104;&#101;&#108;&#108;&#111;&#64;&#98;&#114;&#97;&#110;&#98;&#101;&#114;&#103;&#46;&#99;&#111;&#109;
       </a>
     </p>
-    <span className="site-footer__logo" />
+    <Link href="/">
+      <a className="site-footer__logo" />
+    </Link>
     <p className="site-footer__text">
       Made by Nice people in Minnesota
     </p>

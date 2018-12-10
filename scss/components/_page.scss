@@ -20,3 +20,15 @@
     height: 100vh;
   }
 }
+
+.page__content {
+  padding: 4rem;
+
+  @media screen and (min-width: 60rem) {
+    padding: 14rem;
+  }
+
+  .page--home & {
+    padding: 0;
+  }
+}
