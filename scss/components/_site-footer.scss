@@ -31,19 +31,3 @@
     margin-top: 0;
   }
 }
-
-.site-footer__logo {
-  @include branberg-logo($height: 2rem, $color: $black);
-  display: none;
-
-  @media screen and (min-width: 60rem) {
-    display: block;
-  }
-
-  .site-footer--home & {
-    &::before,
-    &::after {
-      border-top-color: $white;
-    }
-  }
-}

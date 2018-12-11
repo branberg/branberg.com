@@ -6,9 +6,6 @@ const Footer = (props) => (
     <p className="site-footer__text">
       Say hi. <a href="mailto:hello@branberg.com?subject=Hi" target="_blank">hello@branberg.com</a>
     </p>
-    <Link href="/">
-      <a className="site-footer__logo" />
-    </Link>
     <p className="site-footer__text">
       Made by Nice people in Minnesota
     </p>
