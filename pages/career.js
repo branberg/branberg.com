@@ -22,11 +22,11 @@ const Career = () => (
       <div className="photo-blocks">
         <PhotoBlock
           name="Sam Brannon"
-          photoUrl="static/images/sam-brannon.jpg"
+          photoUrl="/static/images/sam-brannon.jpg"
         />
         <PhotoBlock
           name="Mike Berg"
-          photoUrl="static/images/mike-berg.jpg"
+          photoUrl="/static/images/mike-berg.jpg"
         />
         <PhotoBlock
           name="You"

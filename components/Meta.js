@@ -17,7 +17,7 @@ const Meta = (props) => {
       <meta charset="UTF-8" />
       <title>{renderPageTitle()}</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <link href="static/images/favicon.png?ver=3" rel="icon" type="image/png" />
+      <link href="/static/images/favicon.png?ver=3" rel="icon" type="image/png" />
       <meta content="A studio that's making an app" name="description" />
       <link href="https://branberg.com" rel="canonical" />
 
