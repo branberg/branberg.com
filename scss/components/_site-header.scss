@@ -1,0 +1,36 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $black;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 4rem;
+
+  @media screen and (min-width: 60rem) {
+    padding: 2rem;
+  }
+
+  &.site-header--home {
+    color: $white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+.site-header__logo {
+  @include branberg-logo($height: 2rem, $color: $black);
+
+  .site-header--home & {
+    &::before,
+    &::after {
+      border-top-color: $white;
+    }
+  }
+}
