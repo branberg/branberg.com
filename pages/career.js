@@ -73,7 +73,14 @@ const Career = () => (
         What do you do now?
       </h3>
       <p>
-        Reach out to us here (hello@branberg.com). DM us. Email us. Tweet us….We’d love to talk with you. Tell us about your past, your cool ideas and what you’re interested in doing. Something in here not sound right? Tell us why we should change it. We’re both super approachable and living/breathing definitions of Minnesota-Nice. If you live in Chicago or Minneapolis even better, we’ll buy you coffee, lunch, dinner, or beer and we can chat that way.
+        Reach out to us here (<a href="mailto:hello@branberg.com?subject=Hi" target="_blank">hello@branberg.com</a>) or <a href="https://twitter.com/branberg" target="_blank">Tweet us</a>… We’d love to talk with you. Tell us about your past, your cool ideas and what you’re interested in doing. Something in here not sound right? Tell us why we should change it. We’re both super approachable and living/breathing definitions of Minnesota-Nice. If you live in Chicago or Minneapolis even better, we’ll buy you coffee, lunch, dinner, or beer and we can chat that way.
+      </p>
+      <p>
+        <br />
+        Looking forward to meeting you,
+        <br />
+        <br />
+        Sam &amp; Mike
       </p>
     </div>
   </Page>
