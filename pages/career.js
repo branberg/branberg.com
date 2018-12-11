@@ -8,7 +8,7 @@ const Career = () => (
         Technical Co-Founder Needed
       </h1>
       <p className="copy__subtitle">
-        We need a technical co-founder that can burn the midnight oil with us and have a ton of fun making the ideas we all generate come to life.
+        We’re looking for a technical co-founder that can burn the midnight oil with us and have a ton of fun making the ideas we all generate come to life.
       </p>
       <h3>
         About Us
